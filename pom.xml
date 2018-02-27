@@ -11,7 +11,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.3.RELEASE</version>
+		<version>1.5.10.RELEASE</version>
 	</parent>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,6 +39,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>6.0.6</version>
+		</dependency>
+
 		<!-- Derby Database (in-memory in test suite, or in-directory in production 
 			code) -->
 		<dependency>
@@ -129,7 +135,7 @@
 					</aspectLibraries>
 				</configuration>
 				<dependencies>
-					<!-- Avoid AspectJ version clashes between 1.8.9 and 1.8.10 following 
+					<!-- Avoid AspectJ version clashes between 1.8.9 and 1.8.10 following
 						https://stackoverflow.com/questions/41646801/maven-aspectj-weaving-for-java8 -->
 					<dependency>
 						<groupId>org.aspectj</groupId>

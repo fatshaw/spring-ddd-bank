@@ -5,7 +5,9 @@ import java.time.format.FormatStyle;
 
 public class Util {
 
-	/**Formats a LocalDate in Germany as 31.12.1999.*/
-	static final DateTimeFormatter MEDIUM_DATE_FORMATTER = DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM);
+    /**
+     * Formats a LocalDate in china as 1999-01-01.
+     */
+    static final DateTimeFormatter MEDIUM_DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
 }

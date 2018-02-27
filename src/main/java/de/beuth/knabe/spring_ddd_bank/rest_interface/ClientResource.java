@@ -11,7 +11,7 @@ public class ClientResource {
     /**Username of the client. It has to be unique, too.*/
     public String username;
 
-	/**The birth date of the client in format 31.12.1999.*/
+	/**The birth date of the client in format 1999-01-01.*/
     public String birthDate;
 
 

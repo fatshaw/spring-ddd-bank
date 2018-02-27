@@ -11,7 +11,7 @@ This sample application is used for a course on Software Engineering at Beuth Un
 This project uses
 
 - JDK 8
-- Maven 3
+- Maven 3/gradle 4+
 - Spring Boot
 - Spring Data + JPA + Hibernate + Derby
 - AspectJ Compile Time Weaving for main sources

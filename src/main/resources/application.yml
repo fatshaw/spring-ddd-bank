@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://futures-dev-mysql.98.cn:9918/spring-ddd-bank-db?characterEncoding=utf8&serverTimezone=GMT%2b8&connectTimeout=5000&socketTimeout=30000&useSSL=false
+    username: root
+    password: 8jnYxnPlIA
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
